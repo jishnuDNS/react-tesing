@@ -15,10 +15,10 @@ This repository provides examples and starter code for beginners to learn and pr
 ## Installation
   1. Clone the repository using the following command:
         
-          git clone https://github.com/your-username/repository-name.git
+          git clone https://github.com/jishnuDNS/react-tesing.git
   2. Change into the project directory:
 
-          cd repository-name
+          cd react-testing
   3. Install the dependencies:
 
           npm install
