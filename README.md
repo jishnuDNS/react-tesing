@@ -1,6 +1,6 @@
 # Jest and React testing library for beginners
 
-Basically, this repository is primarily focusing on some examples of developer testing libraries.
+Basically, this repository includes some examples on developer testing libraries.
 Create-react-app have given us both jest and react testing library under the hood. So special configurations are not need.
 
  Let's quickly walk through the repository and wishing you a [happy hacking]()!
