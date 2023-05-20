@@ -1,21 +1,60 @@
 # Jest and React testing library for beginners
 
-Basically, this repository is primarily focusing on some examples of developer testing libraries.
-Create-react-app have given us both jest and react testing library under the hood. So special configurations are not need.
+This repository provides examples and starter code for beginners to learn and practice using Jest and React Testing Library for testing React applications.
 
  Let's quickly walk through the repository and wishing you a [happy hacking]()!
+ 
+### `Table of Contents`
 
-## Only needed script
+1. Installation
+2. Usage
+3. Testing Examples
+4. Contributing
+5. License
 
-In the project directory, you can run:
+## Installation
+  1. Clone the repository using the following command:
+        
+          git clone https://github.com/your-username/repository-name.git
+  2. Change into the project directory:
 
-### `npm test`
+          cd repository-name
+  3. Install the dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+          npm install
+## Usage
+To get started, follow the steps below:
+  
+  1. Open the project in your preferred code editor.
+  2. Explore the source code and test files provided in the repository. Familiarize yourself with the structure and organization of the files.
+  3. Modify the existing components or create new components to practice writing tests.
+  4. Run the tests using the following command:
 
-## Learn More
+          npm test
+  This command will execute the test suite using Jest and display the test results in the terminal.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Testing Examples
+
+The repository includes several examples that cover different aspects of testing React applications using Jest and React Testing Library. Here are some of the examples provided:
+  
+  1. Lets start with a simple example,
+  
+       Individual test case for 'YourComponent', were we'll check some text which is to be rendered in your document.
+
+              test("Name of your test", () => {
+              render(<YourComponent />);
+              const textElement = screen.getByText(/hello/i);
+              expect(textElement).toBeInTheDocument();
+              });
+
+## Contributing
+
+Contributions to this repository are welcome. If you find any issues, have suggestions for improvements, or want to add more testing examples, please open an issue or submit a pull request.
+
+When contributing, please follow the existing coding style and adhere to the project's code of conduct.
+
+## License
+
+This repository is licensed under the [MIT License]("https://www.google.com"). Feel free to use and modify the code according to the terms of the license.
