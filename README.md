@@ -5,7 +5,7 @@ Create-react-app have given us both jest and react testing library under the hoo
 
  Let's quickly walk through the repository and wishing you a [happy hacking]()!
 
-## Only needed script
+## Needed script
 
 In the project directory, you can run:
 
