@@ -68,6 +68,15 @@ The repository includes several examples that cover different aspects of testing
 
 3.  Coverage script used in package.json
 
+        "coverage": "npm test --coverage --watchAll --collectCoverageFrom='src/components/**/*.{ts,tsx}'"
+
+    1. __--coverage__ : Helps to identify script which we called is for coverage purposes.
+    2. __--collectCoverageFrom__ : Will determine the script were to look into and were not to.
+    
+    Here, we told jest to cover the whole components directory and its child directories along with the typescript files includes in it.
+
+        "coverage": "npm test --coverage --watchAll --collectCoverageFrom='!src/components/**/*.{types,stories,constants,tests,specs}.{ts,tsx}'"
+    `!` in __--collectCoverageFrom__ will helps the script to ignore the dir.
 ## Contributing
 
 Contributions to this repository are welcome. If you find any issues, have suggestions for improvements, or want to add more testing examples, please open an issue or submit a pull request.
