@@ -15,7 +15,8 @@ Let's quickly walk through the repository and wishing you a [happy hacking]()!
 ## Installation
 
 1.  Clone the repository using the following command:
-    git clone https://github.com/jishnuDNS/react-tesing.git
+   
+         git clone https://github.com/jishnuDNS/react-tesing.git
 2.  Change into the project directory:
 
         cd react-testing
