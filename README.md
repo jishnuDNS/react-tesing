@@ -60,8 +60,8 @@ The repository includes several examples that cover different aspects of testing
 
 All you need is a 'test' method which triggers a test, were it accepts 3 arguments such as name, function and timeout `test(name,fn,timeout)`.
 
-1. name : The test name is used to identify the test
-2. fn : A function which contains the expectations to test
+1. name : The name which is used to identify the test.
+2. fn : A function which contains the expectations to test.
 3. timeout : An optional argument for specifying how long to wait before aborting the test. The default timeout is 5 seconds.
 ## Contributing
 
