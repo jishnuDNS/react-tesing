@@ -72,7 +72,7 @@ The repository includes several examples that cover different aspects of testing
 
     A metric that can help you understand how much of your software code is tested and also the quality of your test suite.
 
-        "coverage": "npm test --coverage --watchAll --collectCoverageFrom='src/components/**/*.{ts,tsx}'"
+        "coverage": "npm test -- --coverage --watchAll --collectCoverageFrom='src/components/**/*.{ts,tsx}'"
 
     1. **--coverage** : Helps to identify script which we called is for coverage purposes.
     2. **--collectCoverageFrom** : Will determine the script were to look into and were not to.
@@ -80,7 +80,7 @@ The repository includes several examples that cover different aspects of testing
 
     Here, we told jest to cover the whole components directory and its child directories along with the typescript files includes in it.
 
-        "coverage": "npm test --coverage --watchAll --collectCoverageFrom='!src/components/**/*.{types,stories,constants,tests,specs}.{ts,tsx}'"
+        "coverage": "npm test -- --coverage --watchAll --collectCoverageFrom='!src/components/**/*.{types,stories,constants,tests,specs}.{ts,tsx}'"
     `!` in __--collectCoverageFrom__ will helps the script to ignore the dir.
 
 ## Contributing
