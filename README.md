@@ -1,4 +1,4 @@
-# Jest and React testing library for beginners
+# `Jest and React testing library for beginners`
 
 This repository provides examples and starter code for beginners to learn and practice using Jest and React Testing Library for testing React applications.
 
