@@ -65,7 +65,7 @@ The repository includes several examples that cover different aspects of testing
     1. name : The test name is used to identify the test
     2. fn : A function which contains the expectations to test
     3. timeout : An optional argument for specifying how long to wait before aborting the test. The default timeout is 5 seconds.
-
+3. Navigate to `src/components/greet/Greet.test.tsx`, you will find different test properties present in jest and RTL there.
 3.  Coverage script used in package.json
 
         "coverage": "npm test --coverage --watchAll --collectCoverageFrom='src/components/**/*.{ts,tsx}'"
